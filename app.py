@@ -1,5 +1,5 @@
 from flask import Flask,Resource,request,response,jsonify,session
-
+from models import User
 app = Flask(__name__)
 
 @app.route('/')
